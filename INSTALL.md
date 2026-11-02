@@ -5,10 +5,10 @@ Het resultaat gaat via MQTT naar Home Assistant, en daarvandaan naar Telegram.
 
 ## Installeren (per Proxmox-host, als root)
 
-Zet `pve-update-notifier.sh` in een GitHub-repo en draai dan:
+Draai:
 
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/<org>/<repo>/main/pve-update-notifier.sh)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/devpijnenburg/pve-update-notifier/main/pve-update-notifier.sh)"
 ```
 
 Of kopieer het bestand naar de host en draai `bash pve-update-notifier.sh`.
